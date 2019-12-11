@@ -1,0 +1,21 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Chinamazon is a node.js application that simulates the purchase process of a basic e-commerce transaction.\r This application has a MySQL Database called bamazon and a table inside the database called \"products\".\r The products table has the following columns:",
+  "main": "bamazon.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "author": "Chin Kuay",
+  "license": "ISC"
+}
