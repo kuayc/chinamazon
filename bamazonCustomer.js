@@ -34,8 +34,8 @@ function promptCustomerItem(inventory) {
     ])
     .then(function(val) {
       checkIfShouldExit(val.choice);
-      var choiceId = parseInt(val.choice);
-      var product = checkInventory(choiceId, inventory);
+      let choiceId = parseInt(val.choice);
+      let product = checkInventory(choiceId, inventory);
       if (product) {
         promptCustomerQuantity(product);
       }
@@ -55,7 +55,7 @@ function promptCustomerQuantity(product) {
     ])
     .then(function(val) {
       checkIfShouldExit(val.choice);
-      var quantity = parseInt(val.quantity);
+      let quantity = parseInt(val.quantity);
       if (quantity > product.stock_quantity) {
         loadProducts();
         console.log("Insufficient quantity!");
