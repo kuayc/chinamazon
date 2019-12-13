@@ -1,5 +1,5 @@
 {
-  "name": "bamazon",
+  "name": "chinamazon",
   "version": "1.0.0",
   "description": "Chinamazon is a node.js application that simulates the purchase process of a basic e-commerce transaction.\r This application has a MySQL Database called bamazon and a table inside the database called \"products\".\r The products table has the following columns:",
   "main": "bamazon.js",
