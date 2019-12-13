@@ -15,7 +15,7 @@ inquirer
   .prompt([
     {
       name: "action",
-      message: "Would you like to post or bid"
+      message: "Would you like to post or bid?"
     }
   ])
   .then(function(answers) {
