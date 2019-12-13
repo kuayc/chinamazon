@@ -26,7 +26,7 @@ function promptCustomerItem(inventory) {
       {
         type: "input",
         name: "choice",
-        message: "what is the ID of the item you would like to purchase?",
+        message: "What is the ID of the item you would like to purchase?",
         validate: function(val) {
           return !isNaN(val);
         }
