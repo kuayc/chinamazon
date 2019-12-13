@@ -3,11 +3,8 @@ import { prompt } from "inquirer";
 import "console.table";
 const connection = createConnection({
   host: "localhost",
-  // Your port; if not 3306
   port: 3306,
-  // Your username
   user: "root",
-  // Your password
   password: "2579",
   database: "bamazonDB"
 });
